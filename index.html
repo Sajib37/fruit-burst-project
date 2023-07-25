@@ -28,11 +28,141 @@
 
 <body class="lato">
     <header>
-        
-        <!-- navbar started -->
-        <nav class="max-w-screen-xl mx-auto py-4 rounded-full bg-[#F85559]">
 
+        <!-- navbar starts here-->
+        <nav class="max-w-screen-xl mx-auto p-6 rounded-full flex items-center justify-between md:bg-[#F85559]">
+            <ul class=" hidden items-center lg:block lg:flex lg:gap-8">
+                <li class="list-none text-white"><a href="#">Home</a></li>
+                <li class="list-none text-white"> <a href="#">About Us</a></li>
+                <li class="list-none text-white"><a href="#">Shop</a></li>
+                <li class="list-none text-white"><a href="#">All fruits</a></li>
+            </ul>
+
+            <div class="flex gap-2 items-center">
+                <img class="w-8 md:w-10" src="./images/logo.png" alt="">
+                <h1 class=" font-bold text-2xl lg:text-4xl lg:text-white">Fruit Burst</h1>
+            </div>
+
+            <div class="relative hidden lg:block">
+                <input type="text" placeholder="Type here" class="input input-bordered input-warning rounded-full lg:w-80" />
+                <a href="#"><i class="fa-solid fa-magnifying-glass absolute right-6 top-4"></i></a>       
+            </div>
+            <div class="lg:hidden"><i class="fa-solid fa-bars text-2xl"></i></div>
         </nav>
+
+        <!-- banner starts here -->
+        <section class="max-w-screen-xl mx-auto mt-12 relative mb-36 ">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <!-- customization carousol image -->
+                  <div class="w-full h-full relative">
+                    <img src="./images/banner1.png" class="w-full " />
+                    <div class="absolute h-full w-full top-0 text-white text-center flex  justify-center items-center">
+                        <div class="max-w-xl md:space-y-3 z-20">
+                            <h1 class="font-extrabold md:text-5xl  ">Exotic tastes at your doorstep</h1>
+                        <p class="text-xs md:text-base">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none mb-8">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute inset-0 bg-black opacity-60"></div>
+                  </div>
+                  
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+
+                     <!-- customization carousol image -->
+                  <div class="w-full h-full relative ">
+                    <img src="./images/banner2.png" class="w-full" />
+                    <div class="absolute h-full w-full top-0 text-white text-center flex  justify-center items-center">
+                        <div class="max-w-xl md:space-y-3 z-20">
+                            <h1 class="font-extrabold md:text-5xl  ">Exotic tastes at your doorstep</h1>
+                        <p class="text-xs md:text-base">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none mb-8">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute inset-0 bg-black opacity-60"></div>
+                  </div>
+
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+
+                     <!-- customization carousol image -->
+                  <div class="w-full h-full relative">
+                    <img src="./images/banner3.png" class="w-full" />
+                    <div class="absolute h-full w-full top-0 text-white text-center flex  justify-center items-center">
+                        <div class="max-w-xl md:space-y-3 z-20">
+                            <h1 class="font-extrabold md:text-5xl  ">Exotic tastes at your doorstep</h1>
+                        <p class="text-xs md:text-base">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none mb-8">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute inset-0 bg-black opacity-60"></div>
+                  </div>
+                  
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                    
+                     <!-- customization carousol image -->
+                  <div class="w-full h-full relative mix-blend-darken">
+                    <img src="./images/banner4.png" class="w-full" />
+                    <div class="absolute h-full w-full top-0 text-white text-center flex  justify-center items-center">
+                        <div class="max-w-xl md:space-y-3 z-20">
+                            <h1 class="font-extrabold md:text-5xl  ">Exotic tastes at your doorstep</h1>
+                        <p class="text-xs md:text-base">We supply highly quality organic products</p>
+                        <button class="btn bg-[#F85559] text-white border-none mb-8">Shop Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute inset-0 bg-black opacity-60"></div>
+                  </div>
+                      
+
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class=" w-4/5 p-4 mx-auto absolute -bottom-20 left-32 bg-white   hidden lg:block lg:flex lg:justify-between">
+                <div>
+                    <img src="./images/fruit1.png" alt="">
+                    <h1 class="text-center font-extrabold">Strawberry</h1>
+                </div>
+                <div>
+                    <img src="./images/fruit2.png" alt="">
+                    <h1 class="text-center font-extrabold">Orange</h1>
+                </div>
+                <div>
+                    <img src="./images/fruit3.png" alt="">
+                    <h1 class="text-center font-extrabold">Mango</h1>
+                </div>
+                <div>
+                    <img src="./images/fruit4.png" alt="">
+                    <h1 class="text-center font-extrabold">Strawberry</h1>
+                </div>
+                <div>
+                    <img src="./images/fruit5.png" alt="">
+                    <h1 class="text-center font-extrabold">Mango</h1>
+                </div>
+              </div>
+        </section>
+
+        
     </header>
 </body>
 </html>
