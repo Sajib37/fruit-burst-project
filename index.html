@@ -47,7 +47,29 @@
                 <input type="text" placeholder="Type here" class="input input-bordered input-warning rounded-full lg:w-80" />
                 <a href="#"><i class="fa-solid fa-magnifying-glass absolute right-6 top-4"></i></a>       
             </div>
-            <div class="lg:hidden"><i class="fa-solid fa-bars text-2xl"></i></div>
+
+            <!-- menubar clickabble -->
+            <div class="relative lg:hidden menu-container">
+              <div class="navbar bg-none">
+                <div class="flex-none">
+                  <ul class="menu menu-horizontal px-1 ">
+                    <li>
+                      <details>
+                        <summary >
+                          <i class="fa-solid fa-bars text-2xl menu-icon"></i>
+                        </summary>
+                        <ul class="absolute w-48 h-[100vh] flex flex-col gap-4 bg-gray-800 p-8  top-5 -right-9 z-30 ">
+                          <li class="list-none text-white"><a href="#">Home</a></li>
+                          <li class="list-none text-white"> <a href="#">About Us</a></li>
+                          <li class="list-none text-white"><a href="#">Shop</a></li>
+                          <li class="list-none text-white"><a href="#">All fruits</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
         </nav>
 
         <!-- banner starts here -->
